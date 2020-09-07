@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/chenjinming1993/Ant-Design/issues"
   },
-  "homepage": "https://github.com/chenjinming1993/Ant-Design#readme"
+  "homepage": "https://github.com/chenjinming1993/Ant-Design#readme",
+  "devDependencies": {
+    "umi": "^3.2.19"
+  }
 }
