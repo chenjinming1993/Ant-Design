@@ -1,10 +1,7 @@
 export default {
     singular: true,
-    plugins: [
-        ['umi-plugin-react',{
-            //
-        }]
-    ],
+    dva: {},
+    antd: {},
     routes: [{
         path: '/',
         component: './HelloWorld'

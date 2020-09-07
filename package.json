@@ -21,6 +21,6 @@
   "homepage": "https://github.com/chenjinming1993/Ant-Design#readme",
   "devDependencies": {
     "umi": "^3.2.19",
-    "umi-plugin-react": "^1.15.8"
+    "@umijs/preset-react": "^1"
   }
 }
