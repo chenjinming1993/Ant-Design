@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "umi dev",
+    "build": "umi build"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/chenjinming1993/Ant-Design#readme",
   "devDependencies": {
-    "umi": "^3.2.19"
+    "umi": "^3.2.19",
+    "umi-plugin-react": "^1.15.8"
   }
 }
