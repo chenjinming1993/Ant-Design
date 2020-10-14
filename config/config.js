@@ -7,6 +7,10 @@ export default {
         {
             path: '/',
             component: './HelloWorld'
+        },
+        {
+            path: '/register',
+            component: '../'
         }
     ]
 };
