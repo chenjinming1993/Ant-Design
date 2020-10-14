@@ -10,7 +10,7 @@ export default {
         },
         {
             path: '/register',
-            component: '../'
+            component: './user/Register/register'
         }
     ]
 };
