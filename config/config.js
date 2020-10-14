@@ -2,8 +2,11 @@ export default {
     singular: true,
     dva: {},
     antd: {},
-    routes: [{
-        path: '/',
-        component: './HelloWorld'
-    }]
+    // umi routes: https://umijs.org/zh-CN/docs/routing
+    routes: [
+        {
+            path: '/',
+            component: './HelloWorld'
+        }
+    ]
 };
