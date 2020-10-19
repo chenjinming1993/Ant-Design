@@ -1,5 +1,5 @@
 export default () => {
   return (
-    <div>register</div>
+    <div>Login</div>
   );
 }
