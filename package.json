@@ -22,5 +22,18 @@
   "devDependencies": {
     "umi": "^3.2.19",
     "@umijs/preset-react": "^1"
+  },
+  "response": {
+    "code":0,
+    "msg":"success",
+    "remind": "website-data!!"
+  },
+  "data":{
+    "user_token":"eyJhbGciOiJzaGEyNTYiLCJ0eXBlIjoiand0In0=.eyJhcHBfa2V5IjoiQTAwMDEiLCJhcHBfaWQiOjEsImV4cGlyZSI6MTYwMTQzMTAxMywidHlwZSI6InVzZXJfdG9rZW4iLCJpcCI6IjEyNy4wLjAuMSIsInVzZXIiOnsid2RfaWQiOiJ3ZF8xNDVmNzE0MmU1MDlhNmMiLCJhY2NvdW50IjoicjE2MDEyNTgyMTI2NTMifX0=.7e07ab3fafb012531207c253efc49021c183db263d34aabca62dc6fc068c776e",
+    "account":"r1601258212653",
+    "wd_id":"wd_145f7142e509a6c",
+    "expire":1601431013,
+    "remind": "website-data!!"
   }
+  
 }
