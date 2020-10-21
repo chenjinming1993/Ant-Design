@@ -1,14 +1,14 @@
-import { Card } from 'antd';
+import { Card, Button } from 'antd';
 
 import styles from './style.less'
 
 export default () => {
-    const style = {
-        width: '400px',
-        margin: '30px',
-        boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
-        border: '1px solid #e8e8e8'
-    };
+    // const style = {
+    //     width: '400px',
+    //     margin: '30px',
+    //     boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
+    //     border: '1px solid #e8e8e8'
+    // };
     return (
         <div className={styles.main}>
             {/* <Card style={style} actions={[<a href="/register">register</a>, <a href="/login">login</a>]}>
@@ -20,7 +20,10 @@ export default () => {
                 />
             </Card> */}
             <div className={styles.header}>
-                <Card></Card>
+                <div className={styles.user}>
+                    <Button className={styles.login} type="text"><a href="/login">登陆</a></Button>
+                    <Button className={styles.register} type="text"><a href="/register">注册</a></Button>
+                </div>
             </div>
             <div className={styles.seller}>1</div>
             <div className={styles.shop}>2</div>
