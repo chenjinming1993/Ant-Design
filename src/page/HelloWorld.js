@@ -1,6 +1,6 @@
 import { Card, Button } from 'antd';
 
-import styles from './style.less'
+import styles from './style.less';
 
 export default () => {
     // const style = {
