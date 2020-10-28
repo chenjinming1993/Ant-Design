@@ -35,6 +35,13 @@ export default () => {
   };
   return (
     <div className={styles.main}>
+      <div className={styles.header}>
+        <div className={styles.user}>
+          <Button className={styles.login} type="text"><a href="/login">登陆</a></Button>
+          <Button className={styles.backHome} type="text"><a href="/">返回</a></Button>
+        </div>
+      </div>
+
       <div className={styles.register}>
           <Form
           {...formItemLayout}
@@ -46,7 +53,7 @@ export default () => {
             prefix: '86',
           }}
           scrollToFirstError
-        >
+          >
           <Form.Item
             name="email"
             label="E-mail"
@@ -109,7 +116,6 @@ export default () => {
           </Form.Item>
         </Form>
       </div>
-      <a href="/">return</a>
     </div>
   );
 }

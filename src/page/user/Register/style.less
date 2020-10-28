@@ -1,11 +1,27 @@
 @import '~antd/es/style/themes/default.less';
 
 .main {
-  width: 368px;
+  width: 500px;
   margin: 0 auto;
   // background-color: rgb(135, 221, 221);
+  .header {
+    background-color: azure;
+    height: 36px;
+    position: relative;
+    .user {
+      position: absolute;
+      right: 2px;
+      margin: 2px;
+      .login {
+        margin-left: 2px;
+      }
+      .backHome {
+        margin-left: 2px;
+      }
+    }
+  }
   .register {
-    width: 100%;
+    width: 450px;
     margin: 20px auto;
     // background-color: rgb(228, 217, 203);
   }
