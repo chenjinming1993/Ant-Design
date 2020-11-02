@@ -38,7 +38,7 @@ export default () => {
       <div className={styles.header}>
         <div className={styles.user}>
           <Button className={styles.login} type="text"><a href="/login">登陆</a></Button>
-          <Button className={styles.backHome} type="text"><a href="/">返回</a></Button>
+          <Button className={styles.backHome} type="text"><a href="/">返回主页</a></Button>
         </div>
       </div>
 
@@ -48,23 +48,19 @@ export default () => {
           // form={form}
           name="register"
           // onFinish={onFinish}
-          initialValues={{
-            residence: ['zhejiang', 'hangzhou', 'xihu'],
-            prefix: '86',
-          }}
           scrollToFirstError
           >
           <Form.Item
-            name="email"
-            label="E-mail"
+            name="Username"
+            label="Username"
             rules={[
-              {
-                type: 'email',
-                message: 'The input is not valid E-mail!',
-              },
+              // {
+              //   type: 'email',
+              //   message: 'The input is not valid E-mail!',
+              // },
               {
                 required: true,
-                message: 'Please input your E-mail!',
+                message: 'Please input your Username',
               },
             ]}
           >
